@@ -1,0 +1,42 @@
+# Build output
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Package lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+docker/
+*.dockerignore
+
+# Tests coverage
+coverage/
+
+# Runtime files
+*.tsbuildinfo
+
+# Misc editor config
+.vscode/
+.idea/
+
+# Public assets (optional)
+public/
